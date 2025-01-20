@@ -1,0 +1,12 @@
+# Strengths and improvements in Scaling and Evaluating Sparse Autoencoders
+
+As outlined in the [repository's README](../README.md), I read through the [**Scaling and Evaluating Sparse Autoencoders**](https://arxiv.org/abs/2406.04093) paper with the intention of focus on it's communication style from the perspective of a [distillator](https://www.lesswrong.com/posts/nvP28s5oydv8RjF9E/mats-models). My thoughts on the strengths/improvements egarding the article's communication style are captured below.
+
+## What is effective about this paper's communication, and why?
+
+After reading the paper, I found the following aspects particularly effective in communicating the motivations, approach and results of the paper:
+* **The paper had a very clear structure and outlined the main contributions well** - The paper effectively organises content into distinct sections: methodology, scaling laws, and evaluation. It clearly enumerates its contributions upfront, aiding quick comprehension. It also gives a summary in the introduction section that details the main contirbutions of the other sections.
+* **There are detailed but clear explanations of the methodologies** - Fairly complex concepts like k-sparse autoencoders and scaling laws are well-explained, and supported by both equations and diagrams. I'm a big fan of using both formal and visual approaches to conveying conceptual information as it improves accessibility for different types of reader as well as allowing for readers to access the paper at different levels of depth (quick skim vs deep read).
+* **Good balance of conciseness and depth** - The writing throughout the paper generally strikes a good balance between conciseness and providing sufficient depth. The writing avoids being overly verbose while explaining technical concepts, which makes the article more engaging and focused.
+* **Well structured progression of concepts** - The paper builds on the concepts it introduces well, starting with foundation concepts such as limitations with using the $L_1$ pentalty and the benefits of k-sparse activation before building up to more complex ideas like scaling laws and alignment of evaluation metrics. This layered approach helps to tell a story and guide the reader.
+* **Highlights key insights clearly** - The authors spotlight the most impactful results and inisghts in a very clear, structured way (e.g. bullet points for benefits of k-sparse autoencoders in sections 2.3).
