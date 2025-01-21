@@ -10,3 +10,14 @@ After reading the paper, I found the following aspects particularly effective in
 * **Good balance of conciseness and depth** - The writing throughout the paper generally strikes a good balance between conciseness and providing sufficient depth. The writing avoids being overly verbose while explaining technical concepts, which makes the article more engaging and focused.
 * **Well structured progression of concepts** - The paper builds on the concepts it introduces well, starting with foundation concepts such as limitations with using the $L_1$ pentalty and the benefits of k-sparse activation before building up to more complex ideas like scaling laws and alignment of evaluation metrics. This layered approach helps to tell a story and guide the reader.
 * **Highlights key insights clearly** - The authors spotlight the most impactful results and inisghts in a very clear, structured way (e.g. bullet points for benefits of k-sparse autoencoders in sections 2.3).
+
+## What could be improved about the way this paper communicates?
+
+While I generally felt the writing communication was a strength of the paper, and thoroughly enjoyed reading it, I identified the following as potential areas for improvement:
+* **Slightly disjointed repetition across sections** - Some of the discussions, such as those on scaling laws and sparsity trade-offs, crop up multiple times in slightly different forms. At times the repetition was slightly awkward and gave a slightly choppy feeling to the paper that distracted from the material being presented. Streamlining those repeated points could tighten up the narrative and cut down on redundancy.
+
+* **Unclear prioritization of results** - Several different findings are presented in the paper and it’s sometimes unclear which results are most important/critical. A brief summary at the end of key sections, which highlights the most impactful results from that section, would help to guide readers.
+
+* **Underexplored practical implications** - The implications of the findings, specifically around how larger sparse autoencoders might be used in real-world tasks, are only lightly touched upon in the paper. While the potential impact of the results presented here may be obvious to some, explicitly stating the impact of the findings would make the results more relatable.
+
+* **Non-intuitive visualizations** - While the general use of visulisations are a strength of the paper, a number of them are overly complex and present information in a way that isn’t immediately obvious. This requires more deliberate thought and interpretation to understand what is being conveyed, which could interupt the flow of the reader.
