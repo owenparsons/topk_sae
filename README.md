@@ -25,6 +25,8 @@ I'll also focus on starting to get into gear as an experimentalist, and will aim
 ### General notes
 In addition to these role-specific tasks, I will compile some general notes on the paper itself Sparse Autoencoders (SAEs) in general, for my own learning and reference.
 
+[My general notes on the paper can be found here](docs/general_notes.md)
+
 ---
 
 If you have any comments/questions about this repository, please feel free to reach out (feedback/collaboration welcome)!
