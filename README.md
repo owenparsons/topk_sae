@@ -17,6 +17,8 @@ Wearing my distillator hat, I will go through the paper, focusing primarily on t
 ### Partial rewrite
 I will also attemtp to rewrite the abstract section and one of the other sections (that I identified as being a good candidate for rewriting) to improve clarity and communication effectiveness.
 
+[The partial rewrite of the paper can be found here](docs/rewrites.md)
+
 ### Experimental replication
 I'll also focus on starting to get into gear as an experimentalist, and will aim to put together the code necessary to reproduce the central results of the paper.
 
