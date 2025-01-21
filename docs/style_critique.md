@@ -1,6 +1,6 @@
 # Strengths and improvements in Scaling and Evaluating Sparse Autoencoders
 
-As outlined in the [repository's README](../README.md), I read through the [**Scaling and Evaluating Sparse Autoencoders**](https://arxiv.org/abs/2406.04093) paper with the intention of focus on it's communication style from the perspective of a [distillator](https://www.lesswrong.com/posts/nvP28s5oydv8RjF9E/mats-models). My thoughts on the strengths/improvements egarding the article's communication style are captured below.
+As outlined in the [repository's README](../README.md), I read through the [**Scaling and Evaluating Sparse Autoencoders**](https://arxiv.org/abs/2406.04093) paper with the intention of focus on it's communication style from the perspective of a [distillator](https://www.lesswrong.com/posts/nvP28s5oydv8RjF9E/mats-models). My thoughts on the strengths/improvements regarding the article's communication style are captured below.
 
 ## What is effective about this paper's communication, and why?
 
