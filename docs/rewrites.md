@@ -11,7 +11,7 @@ This page contains rewrites for two of the sections from the [**Scaling and Eval
 ### Key changes
 * Reduced the technical details presented in abstract
 * Stronger emphasis on key contributions
-* Inceased focus on relevance/impact
+* Increased focus on relevance/impact
 * Streamlining the language
 
 ### Rewrite
@@ -24,7 +24,7 @@ Sparse autoencoders provide a powerful, unsupervised method for extracting inter
 * Give more context
 
 ### Key changes
-* Clearer introduction of TopK, introducing in writting prior to equations
+* Clearer introduction of TopK, introducing in writing prior to equations
 * Reduced use of unnecessary technical language
 * Linked benefits of method to broader implications
 * Clear comparison to other methods

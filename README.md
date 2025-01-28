@@ -5,7 +5,7 @@ This repository contains materials for a mini pre-project conducted as part of t
 The materials here will focus on the paper [**Scaling and Evaluating Sparse Autoencoders**](https://arxiv.org/abs/2406.04093).
 
 ## Focus of repository
-The team roles for the project are based on those defined by John Wentworth in his [MATS Models article on LessWrong](https://www.lesswrong.com/posts/nvP28s5oydv8RjF9E/mats-models). I will be working in a slightly hydrid role, taking on aspects of the 'experimentalist' role and aspectts of the 'distillator' role.  
+The team roles for the project are based on those defined by John Wentworth in his [MATS Models article on LessWrong](https://www.lesswrong.com/posts/nvP28s5oydv8RjF9E/mats-models). I will be working in a slightly hybrid role, taking on aspects of the 'experimentalist' role and aspects of the 'distillator' role.  
 
 ### Critique of style
 Wearing my distillator hat, I will go through the paper, focusing primarily on the **style** rather than the **content** of the paper, and then answer the following questions:
