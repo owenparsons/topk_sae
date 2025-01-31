@@ -27,6 +27,25 @@ $\text{Output}(x)_i = \begin{cases} x_i, & \text{if } x_i \text{ is among the to
 
 Here, $x_i$ represents the activations, and $|x|$ denotes their absolute values.
 
+## Encode and decoder
+
+The encoder and decoder are represented as:
+
+$$
+\mathbf{z} = \text{TopK}(\mathbf{W}_{\text{enc}}(\mathbf{x}_l - \mathbf{b}_{\text{dec}}) + \mathbf{b}_{\text{enc}})
+$$
+
+where $\mathbf{x}_l$ is the input activation, $\mathbf{b}_{dec}$ is the decoder bias, $\mathbf{W}_{\text{enc}}$ is the encoder matrix to transform into the latent representation, $\mathbf{b}_{enc}$ is the encoder bias and $\text{TopK}$ is the Top-k activation function.
+
+$$
+\hat{\mathbf{x}}_l = \mathbf{W}_{\text{dec}} \mathbf{z} + \mathbf{b}_{\text{dec}} = \sum w_i f_i
+$$
+
+where $\mathbf{W}_{\text{dec}}$ is the decoder matrix to map from sparse/latent representation to the original activation space, $\mathbf{b}_{dec}$ is the decoder bias, $f_i$ are the basis vectors and $w_i$ are the weights from $\mathbf{z}$.
+
+The decoder bias acts as a baseline/default activation pattern. This is subtracted from the input activations $before$ encoding as it acts as a centering operation. If we directly applied the encoder matrix to the input activations​, the encoding might be influenced by the presence of a strong bias term, which could reduce the effectiveness of sparsity enforcement. Removing the decoder bias​ before encoding ensures that the encoder is primarily learning the deviation of the input activations​ from the baseline rather than encoding absolute activations.
+
+
 ## References from 'Related work' section
 
 ### Lee Sharkey, 2022:
